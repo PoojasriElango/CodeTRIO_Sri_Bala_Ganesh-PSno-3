@@ -1,0 +1,73 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212; /* Deep dark background for a premium feel */
+    color: #e0e0e0; /* Soft off-white text for readability without harsh contrast */
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    text-align: center; /* Centered alignment for balanced layout */
+}
+
+h1 {
+    font-size: 38px; /* Large and bold heading for emphasis */
+    margin-bottom: 25px; /* Space below the heading */
+    font-weight: 700; /* Bold text for the heading */
+    letter-spacing: 1.5px; /* Subtle letter spacing for a premium feel */
+    text-transform: uppercase; /* Makes the heading stand out more */
+}
+
+p {
+    font-size: 18px; /* Clear and easy-to-read paragraph text */
+    margin-bottom: 40px; /* Adds spacing for clarity */
+    line-height: 1.8; /* Improves readability with better line spacing */
+    max-width: 600px; /* Limits the width of text for better readability on large screens */
+    color: #b3b3b3; /* Softer grey for paragraph text */
+}
+
+button {
+    background-color: #2e2e2e; /* Dark background for buttons */
+    color: #ffffff; /* Crisp white text */
+    border: none; /* Clean, borderless button */
+    padding: 12px 28px; /* Comfortable padding */
+    cursor: pointer;
+    margin: 15px;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover animations */
+    border-radius: 6px; /* Subtle rounded corners */
+    font-size: 16px; /* Readable font size for buttons */
+    font-weight: 600; /* Slightly bold for emphasis */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
+}
+
+button:hover {
+    background-color: #404040; /* Lightens the button on hover */
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+.icon {
+    font-size: 48px; /* Large and prominent icons */
+    margin-bottom: 20px; /* Spacing between icon and text */
+    color: #e0e0e0; /* Matches the soft white text */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+}
+
+/* Additional subtle styling for inputs (if any) */
+input[type="text"], input[type="email"] {
+    background-color: #1c1c1c; /* Dark input field background */
+    border: 1px solid #333333; /* Slight border for definition */
+    padding: 10px;
+    color: #ffffff; /* White text in inputs */
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #555555; /* Border changes on focus */
+    outline: none; /* Remove default outline */
+}

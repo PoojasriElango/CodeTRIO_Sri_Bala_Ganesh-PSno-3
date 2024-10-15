@@ -1,0 +1,129 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1e1e1e; /* Dark Gray Background */
+  color: #ffffff; /* White Text Color */
+}
+
+h1, h2 {
+  color: #fbc02d; /* Golden Yellow for Headings */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white; /* White Text on Buttons */
+  background-color: #1976d2; /* Blue-Gray */
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1565c0; /* Darker Blue on Hover */
+}
+
+input[type="number"], input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; /* Fixed Width for Inputs */
+  background-color: #424242; /* Input Background */
+  color: white; /* Input Text Color */
+}
+
+input[type="number"]::placeholder, input[type="file"]::placeholder {
+  color: #888; /* Placeholder Color */
+}
+
+.chart-container {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #303030; /* Darker Background for Charts */
+}
+
+.chart-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.chart-buttons button {
+  background-color: #43a047; /* Green */
+}
+
+.chart-buttons button:hover {
+  background-color: #388e3c; /* Darker Green on Hover */
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.upload-page, .manual-input-page, .dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.expense-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.expense-box {
+  background-color: #424242; /* Darker Box Color */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.expense-box:hover {
+  transform: scale(1.05); /* Scale Effect on Hover */
+}
+
+.chart-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.back-button {
+  background-color: #d32f2f; /* Red */
+}
+
+.back-button:hover {
+  background-color: #c62828; /* Darker Red on Hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .expense-boxes {
+    grid-template-columns: 1fr; /* Stack on Mobile */
+  }
+
+  .inputs {
+    width: 100%;
+  }
+}

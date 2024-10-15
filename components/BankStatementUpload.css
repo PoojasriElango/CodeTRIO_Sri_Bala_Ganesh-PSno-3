@@ -1,0 +1,136 @@
+/* BankStatementUpload.css */
+
+/* General styling for the main container */
+div {
+    text-align: center;
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Styling for the main heading */
+  h1 {
+    color: #ffcc00; /* Gold color for the heading */
+  }
+  
+  /* Styling for the file input */
+  input[type='file'] {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #444; /* Dark background for input */
+    color: #fff; /* White text */
+    border: none;
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Hover effect for file input */
+  input[type='file']:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+  }
+  
+  /* Table styling for the summary section */
+  .summary-section table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+    color: #fff; /* White text for table */
+  }
+  
+  /* Table header styling */
+  .summary-section th, .summary-section td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Header background color */
+  .summary-section th {
+    background-color: #444; /* Dark background for header */
+  }
+  
+  /* Row striping for better readability */
+  .summary-section tr:nth-child(even) {
+    background-color: #555; /* Lighter gray for even rows */
+  }
+  
+  /* Hover effect for table rows */
+  .summary-section tr:hover {
+    background-color: #666; /* Highlight row on hover */
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #444;
+    color: #ffcc00;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #555;
+}
+
+tbody tr:hover {
+    background-color: #666;
+}
+.top-states {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.badge {
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.badge {
+    background-color: #4caf50; /* Example background color */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.banner {
+    background-color: #2c3e50; /* Dark Slate Blue */
+    color: #ecf0f1; /* Cloud */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.button {
+    background-color: #f1c40f; /* Golden Yellow */
+    color: #2c3e50; /* Dark Slate Blue */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e0b90f; /* Slightly darker yellow */
+}
